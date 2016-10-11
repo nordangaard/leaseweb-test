@@ -1,0 +1,33 @@
+/* FILTERS */
+
+$sf-padding-bottom: 20px;
+
+// Filter section
+$sf-section-side-padding: 20px;
+$sf-section-padding: 15px $sf-section-side-padding 0 $sf-section-side-padding;
+$sf-section-title-fontsize: .8em;
+$sf-section-title-padding-bottom: 15px;
+
+$sf-section-split-width: calc(50% - #{$sf-section-side-padding * 2});
+
+// Filter slider
+
+$sf-slider-margin: 0 10px;
+
+// Filter dropdown
+
+$sf-dropdown-width: 200px;
+$sf-dropdown-padding: 5px;
+
+/* SERVER LIST */
+
+$s-font-size: .8em;
+$s-info-font-size: .75em;
+$s-price-font-size: .9em;
+
+$s-min-width: 350px;
+$s-gutter: .5em;
+
+$s-title-padding-bottom: 10px;
+
+$s-price-color: $green;

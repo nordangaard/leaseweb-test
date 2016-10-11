@@ -1,0 +1,182 @@
+module.exports = [
+  {
+    "name":"HP DL120G5/Intel E2160",
+    "CPU":"1x Intel Dual-Core E2160",
+    "memory":"2GB DDR2",
+    "disk":"2x250GB SATA2",
+    "price":29,
+    "avaliableMemory": [2, 4, 8],
+    "avaliableDisk": [500, 1000, 2000, 4000],
+    "diskType": ["SAS"]
+  },
+  {
+    "name":"HP DL120G5/Intel Xeon X3210",
+    "CPU":"1x Intel Quad Core Xeon X3210",
+    "memory":"2GB DDR2",
+    "disk":"2x250GB SATA2",
+    "price":69,
+    "avaliableMemory": [2, 4, 8],
+    "avaliableDisk": [500, 1000, 2000, 4000, 6000],
+    "diskType": ["SATA"]
+  },
+  {
+    "name":"HP DL120G6/Intel Xeon X3440",
+    "CPU":"1x Intel Quad Core X3440",
+    "memory":"8GB DDR3",
+    "disk":"2x1TB SATA2",
+    "price":69,
+    "avaliableMemory": [8, 16],
+    "avaliableDisk": [60, 120, 240, 480, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA", "SSD"]
+  },
+  {
+    "name":"HP DL120G6/Intel G6950",
+    "CPU":"1x Intel Dual-Core G6950",
+    "memory":"4GB DDR3",
+    "disk":"2x250GB SATA2",
+    "price":49,
+    "avaliableMemory": [4, 8, 16],
+    "avaliableDisk": [500, 1000, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA"]
+  },
+  {
+    "name":"HP DL120G6/Intel Xeon X3440",
+    "CPU":"1x Intel Quad Core X3440",
+    "memory":"8GB DDR3",
+    "disk":"2x1TB SATA2",
+    "price":119,
+    "avaliableMemory": [8, 16],
+    "avaliableDisk": [60, 120, 240, 480, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA", "SSD"]
+  },
+  {
+    "name":"Dell R210/Intel Xeon X3440",
+    "CPU":"1x Intel Quad Core X3440",
+    "memory":"4GB DDR3",
+    "disk":"1x500GB SATA2",
+    "price":69,
+    "avaliableMemory": [4, 8, 16],
+    "avaliableDisk": [500, 1000, 2000, 3000, 4000],
+    "diskType": ["SATA"]
+  },
+  {
+    "name":"Dell R210/Intel Xeon X3430",
+    "CPU":"1x Intel Quad Core X3430",
+    "memory":"4GB DDR3",
+    "disk":"1x500GB SATA2",
+    "price":109,
+    "avaliableMemory": [4, 8, 16],
+    "avaliableDisk": [500, 1000, 2000, 3000, 4000],
+    "diskType": ["SATA"]
+  },
+  {
+    "name":"HP DL120G7/Intel Xeon E3-1230",
+    "CPU":"1x Intel Quad Core Xeon E3-1230",
+    "memory":"8GB DDR3",
+    "disk":"2x500GB SATA2",
+    "price":69,
+    "avaliableMemory": [8, 16, 32],
+    "avaliableDisk": [60, 120, 240, 480, 960, 1000, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA", "SSD"]
+  },
+  {
+    "name":"HP DL120G7/Intel G850",
+    "CPU":"1x Intel Dual-Core G850",
+    "memory":"4GB DDR3",
+    "disk":"2x250GB SATA2",
+    "price":49,
+    "avaliableMemory": [4, 8, 16],
+    "avaliableDisk": [60, 120, 240, 480, 500, 960, 1000, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA", "SSD"]
+  },
+  {
+    "name":"HP DL120G6/Intel G6950",
+    "CPU":"1x Intel Dual-Core G6950",
+    "memory":"4GB DDR3",
+    "disk":"2x250GB SATA2",
+    "price":49,
+    "avaliableMemory": [4, 8, 16],
+    "avaliableDisk": [500, 1000, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA"]
+  },
+  {
+    "name":"HP DL120G7/Intel G850",
+    "CPU":"1x Intel Dual-Core G850",
+    "memory":"4GB DDR3",
+    "disk":"2x250GB SATA2",
+    "price":99,
+    "avaliableMemory": [4, 8, 16],
+    "avaliableDisk": [60, 120, 240, 480, 500, 960, 1000, 2000, 4000, 6000, 8000, 12000],
+    "diskType": ["SATA", "SSD"]
+  },
+  {
+    "name":"IBM X3630/2x Intel Xeon E5620",
+    "CPU":"2x Intel Quad Core E5620",
+    "memory":"8GB DDR3",
+    "disk":"4x300GB SAS 15k",
+    "price":269,
+    "avaliableMemory": [8, 16, 24, 32, 48, 64 ],
+    "avaliableDisk": [1200, 2400, 3600],
+    "diskType": ["SAS"]
+  },
+  {
+    "name":"IBM X3630/2x Intel Xeon E5620",
+    "CPU":"2x Intel Quad Core E5620",
+    "memory":"8GB DDR3",
+    "disk":"4x1TB SATA2",
+    "price":229,
+    "avaliableMemory": [8, 12, 16, 24, 32, 48, 64 ],
+    "avaliableDisk": [60, 120, 240, 480, 1200, 2000, 2400, 3600, 4000, 6000, 8000, 12000, 16000, 18000, 24000, 36000],
+    "diskType": ["SAS", "SATA", "SSD"]
+  },
+  {
+    "name":"HP DL180G6/2x Intel Xeon E5645",
+    "CPU":"2x Intel Hexa-Core Xeon E5645",
+    "memory":"8GB DDR3",
+    "disk":"4x1TB SATA2",
+    "price":149,
+    "avaliableMemory": [8, 16, 24, 32, 48, 64 ],
+    "avaliableDisk": [120, 240, 480, 960, 1200, 2400, 3600, 4000, 6000, 8000, 12000, 16000, 18000, 24000, 36000],
+    "diskType": ["SAS", "SATA", "SSD"]
+  },
+  {
+    "name":"HP DL180G6/2x Intel Xeon E5620",
+    "CPU":"2x Intel Quad Core E5620",
+    "memory":"8GB DDR3",
+    "disk":"4x1TB SATA2",
+    "price":129,
+    "avaliableMemory": [8, 16, 24, 32, 48, 64 ],
+    "avaliableDisk": [60, 120, 240, 480, 960, 1200, 2400, 3600, 4000, 6000, 8000, 10000, 12000, 16000, 18000, 20000, 24000, 30000, 36000],
+    "diskType": ["SAS", "SATA", "SSD"]
+  },
+  {
+    "name":"HP DL180G6/2x Intel Xeon E5620",
+    "CPU":"2x Intel Quad Core E5620",
+    "memory":"8GB DDR3",
+    "disk":"4x1TB SATA2",
+    "price":99,
+    "avaliableMemory": [8, 16, 24, 32, 48, 64 ],
+    "avaliableDisk": [60, 120, 240, 480, 960, 1200, 2400, 3600, 4000, 6000, 8000, 10000, 12000, 16000, 18000, 20000, 24000, 30000, 36000],
+    "diskType": ["SAS", "SATA", "SSD"]
+  },
+  {
+    "name":"Supermicro SC846/1x Intel Xeon E5620",
+    "CPU":"1x Intel Quad Core E5620",
+    "memory":"8GB DDR3",
+    "disk":"24x1TB SATA2",
+    "price":609,
+    "avaliableMemory": [8, 16, 32, 48, 64, 96],
+    "avaliableDisk": [24000, 48000, 72000],
+    "diskType": ["SATA"]
+  },
+  {
+    "name":"Supermicro SC846/1x Intel Xeon E5620",
+    "CPU":"1x Intel Quad Core E5620",
+    "memory":"8GB DDR3",
+    "disk":"24x1TB SATA2",
+    "price":639,
+    "avaliableMemory": [8, 16, 32, 48, 64, 96],
+    "avaliableDisk": [24000, 48000, 72000],
+    "diskType": ["SATA"]
+  }
+];

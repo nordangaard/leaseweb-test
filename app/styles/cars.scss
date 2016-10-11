@@ -1,0 +1,113 @@
+.cars-app {
+
+  @import '_config/cars';
+
+  background-color: $background-color;
+  height: 100%;
+
+  .filters,
+  .list {
+    display: inline-block;
+    float: left;
+    height: $cf-section-height;
+    overflow-y: auto;
+    padding: $cf-section-padding;
+  }
+
+  .list {
+    width: $cf-list-width;
+  }
+
+  .filters {
+    background-color: $accent-color;
+    box-shadow: $card-shadow;
+    direction: rtl;
+    flex-grow: 0;
+    text-align: left;
+    width: $cf-filters-width;
+
+    .select {
+      margin: $cf-select-margin;
+      margin-bottom: $cf-select-padding;
+      position: relative;
+
+      .title {
+        background-color: $white;
+        font-size: $cf-select-title-font-size;
+        margin: 0;
+        padding: $cf-select-padding;
+      }
+
+      .remove {
+        background-color: $remove-color;
+        color: $white;
+        display: none;
+        float: right;
+        font-size: $cf-select-remove-font-size;
+        padding: $cf-select-remove-padding;
+
+        &:hover {
+          cursor: pointer;
+          background-color: darken($remove-color, 10%);
+        }
+      }
+
+      ul {
+        background-color: $grey-white;
+      }
+
+
+      li {
+        padding: .5em;
+
+        &:hover {
+          cursor: pointer;
+          background-color: darken($grey-white, 5%);
+        }
+      }
+
+      &.selected .remove {
+        display: block;
+      }
+    }
+  }
+
+  .car-list {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    .car {
+      background-color: $white;
+      box-shadow: $card-shadow;
+      flex-basis: $c-min-width;
+      flex-grow: 1;
+      font-size: $c-font-size;
+      margin: $c-gutter;
+      padding: $c-gutter;
+
+      transition: $card-shadow-transition;
+
+      h3 {
+        margin: 0;
+        margin-bottom: $c-title-padding-bottom;
+      }
+
+      div {
+        font-size: $c-info-font-size;
+      }
+
+      .price {
+        color: $c-price-color;
+        float: right;
+        font-size: $c-price-font-size;
+      }
+
+      &:hover {
+        box-shadow: $card-shadow-hover;
+        cursor: pointer;
+      }
+    }
+  }
+}

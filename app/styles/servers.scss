@@ -1,0 +1,117 @@
+.servers-app {
+
+  @import '_config/servers';
+
+  margin: 0 auto;
+  max-width: $application-width;
+
+  h3 {
+    margin: 0;
+  }
+
+  .filters {
+    background-color: $white;
+    overflow: hidden;
+
+    padding-bottom: $sf-padding-bottom;
+
+    section {
+      overflow: hidden;
+      padding: $sf-section-padding;
+
+      h2 {
+        font-size: $sf-section-title-fontsize;
+        margin: 0;
+        padding-bottom: $sf-section-title-padding-bottom;
+      }
+    }
+
+    .space-slider,
+    .memory-slider {
+      float: left;
+      width: $sf-section-split-width;
+
+      @media #{$all-mobile} {
+        float: 0;
+        width: 100%;
+      }
+
+      h2 {
+        padding-bottom: $sf-section-side-padding;
+      }
+
+      #memory-slider,
+      #space-slider {
+        margin: $sf-slider-margin;
+      }
+
+      .labels {
+        margin: 10px 4px;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      li {
+        display: inline-block;
+        float: left;
+        text-align: center;
+
+        margin-right: calc(10% - 17px);
+        width: 14.7px;
+
+        &:last-child {
+          float: right;
+          margin: 0;
+          transform: translateX(-110%);
+        }
+      }
+    }
+
+    .disk-type {
+
+      #disk-type {
+        width: $sf-dropdown-width;
+        padding: $sf-dropdown-padding;
+      }
+
+      clear: both;
+    }
+  }
+
+  .server-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .server {
+      background-color: $white;
+      flex-basis: $s-min-width;
+      flex-grow: 1;
+      font-size: $s-font-size;
+      margin: $s-gutter;
+      padding: $s-gutter;
+
+      box-shadow: $card-shadow;
+      transition: $card-shadow-transition;
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: $card-shadow-hover;
+      }
+
+      h3 {
+        margin-bottom: $s-title-padding-bottom;
+      }
+
+      div {
+        font-size: $s-info-font-size;
+      }
+
+      .price {
+        color: $s-price-color;
+        float: right;
+        font-size: $s-price-font-size;
+      }
+    }
+  }
+}

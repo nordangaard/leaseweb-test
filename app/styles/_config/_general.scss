@@ -1,0 +1,46 @@
+/* ************ COLORS ************  */
+
+$mobile:        "only screen and (max-width: 529px)";
+$tablet:        "only screen and (min-width: 530px) and (max-width: 950px)";
+$all-mobile:    "only screen and (max-width: 950px)";
+$desktop:       "only screen and (min-width: 950px) and (max-width: 1128px)";
+$desktop-xl:    "only screen and (min-width: 1129px) and (max-width: 1600px)";
+$desktop-xxl:   "only screen and (min-width: 1600px) and (max-width: 2050px)";
+$desktop-xxxl:  "only screen and (min-width: 2050px)";
+
+$background-color: #F8F8F8;
+$white: #FFF;
+$green: green;
+$grey-white: #f4f8f7;
+$text-color: #222;
+$accent-color: #2c3e50;
+$dark-color: #777;
+
+$remove-color: #d9534f;
+
+/* ************ GENERAL ************  */
+
+$application-width: 2200px;
+
+$card-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$card-shadow-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+$card-shadow-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+/* ************ MIXINS ************  */
+
+@mixin responsive($property, $minValue, $maxValue, $minWidth, $maxWidth) {
+  // See http://archive.is/fcf6f for details
+  // $property = CSS property you want to scale
+  // $minFont = minimum font size for range
+  // $maxFont = maximum font size for range
+  // $minWidth = lowest resolution in pixels for range
+  // $maxWidth = highest resolution in pixels for range
+  // example: .responsive(46,53,1680,1920) will evenly scale a font
+  // between 43px and 53px between the ranges of 1680px and 1920px
+  $valueDiff: $maxValue - $minValue;
+  $widthDiff: $maxWidth - $minWidth;
+  $vw: 100 * $valueDiff / $widthDiff;
+  $px: $minValue - ($minWidth * $valueDiff / $widthDiff);
+  $fallBack: ($minValue + $maxValue) / 2;
+  #{$property}: calc(#{$px}px + #{$vw}vw);
+}

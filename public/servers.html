@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <main class="servers-app test-app">
+            <section class="filters">
+                <section class="memory-slider">
+                    <h2>Memory (GB)</h2>
+                    <div id="memory-slider"></div>
+                    <ol class="labels">
+                        <li>0</li>
+                        <li>2</li>
+                        <li>4</li>
+                        <li>8</li>
+                        <li>12</li>
+                        <li>16</li>
+                        <li>24</li>
+                        <li>32</li>
+                        <li>48</li>
+                        <li>64</li>
+                        <li>96</li>
+                    </ol>
+                </section>
+                <section class="space-slider">
+                    <h2>Disk space (TB)</h2>
+                    <div id="space-slider"></div>
+                    <ol class="labels">
+                        <li>.25</li>
+                        <li>.5</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>8</li>
+                        <li>12</li>
+                        <li>24</li>
+                        <li>48</li>
+                        <li>72</li>
+                    </ol>
+                </section>
+                <section class="disk-type">
+                    <h2>Disk type</h2>
+                    <select id="disk-type" value="">
+                        <option value="">-</option>
+                        <option value="SAS">SAS</option>
+                        <option value="SATA">SATA</option>
+                        <option value="SSD">SSD</option>
+                    </select>
+                </section>
+            </section>
+            <ul class="server-list"></ul>
+        </main>
+
+        <script src="./js/bundle.js"></script>
+
+    </body>
+</html>

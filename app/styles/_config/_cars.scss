@@ -1,0 +1,28 @@
+
+/* FILTERS */
+
+$cf-section-padding: 1em;
+$cf-section-height: calc(100% - #{ $cf-section-padding * 2 });
+
+$cf-select-margin: 0 -#{$cf-section-padding};
+$cf-select-padding: .5em;
+$cf-select-title-font-size: 1em;
+$cf-select-remove-font-size: .8em;
+$cf-select-remove-padding: .2em;
+
+$cf-filters-width: 350px;
+$cf-list-width: calc(100% - #{$cf-filters-width} - #{ $cf-section-padding * 4 });
+
+
+/* CARS LIST */
+
+$c-font-size: .8em;
+$c-info-font-size: .75em;
+$c-price-font-size: .9em;
+
+$c-min-width: 350px;
+$c-gutter: .5em;
+
+$c-title-padding-bottom: 10px;
+
+$c-price-color: $green;
