@@ -27,11 +27,11 @@ Instructions (for making code-changes):
 ..* Cache filter-results
 
 ### Task 1 (Servers)
-* Make a combinator function that binds the click event directly to a filter using a jQuery hook, to do something like this: elem.filter(FilterFunction)
+* Make function that combines filter and event; that binds the click-event directly to a filter using a jQuery hook, to do something like this: elem.filter(FilterFunction)
 * Create labels automatically from slider-configuration input
 
 ### Task 2 (Cars)
-* Manipulate array ONCE to partition it after brand, then calculate number of each type of car / year for helpful badges in the filter
+* Manipulate array ONCE to partition it based on brand, then calculate number of each type of car / year for helpful badges in the filter
 * Clean up redundant code
 * Not lock down functionality to meet criteria of assignment
 * Ability to filter on price (*)
