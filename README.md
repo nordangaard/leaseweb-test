@@ -8,7 +8,7 @@ Instructions (for reviewing):
 
 Instructions (for making code-changes):
 * Run 'npm install' in root of folder
-* Run 'webpack' in root of folder (npm install -G webpack, if not installed globally already)
+* Run 'webpack' in root of folder ('npm install -G webpack', if not installed globally already)
 * Make code-changes and see results
 
 ## Done
