@@ -1,6 +1,15 @@
 # leaseweb-test
 
-Built with jQuery, ES6, Webpack, Karma (Mocha, Chai) and a slider-plugin.
+Built with jQuery since that is what is used in the team. Also: ES6, Webpack, Karma (Mocha, Chai) and a slider-plugin.
+
+Instructions (for reviewing):
+* Clone repository
+* Open public/servers.html for task 1, open public/cars.html for task 2
+
+Instructions (for making code-changes):
+* Run 'npm install' in root of folder
+* Run 'webpack' in root of folder (npm install -G webpack, if not installed globally already)
+* Make code-changes and see results
 
 ## Done
 * Cars.js / cars.html meet criteria of task 1
